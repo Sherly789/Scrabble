@@ -11,7 +11,7 @@ namespace Scrabble
       // Arrange
       char myLetter = 'A';
       // Act
-      WordScorer myWordScorer = new Wordscorer(myLetter);
+      WordScorer myWordScorer = new WordScorer(myLetter);
       char myLetterResult = myWordScorer.GetLetter();
       // Assert
       Assert.Equal(myLetter, myLetterResult);

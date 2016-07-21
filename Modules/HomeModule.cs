@@ -1,5 +1,4 @@
 using Nancy;
-using System.Collections.Generic;
 
 namespace Scrabble
 {

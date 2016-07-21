@@ -1,6 +1,6 @@
 using System;
 
-namespace Scrabble.Objects
+namespace Scrabble
 {
   public class WordScorer
   {
