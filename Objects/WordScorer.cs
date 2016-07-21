@@ -15,10 +15,15 @@ namespace Scrabble
 
     public char GetLetter()
     {
-      return _myLetter;
+      return 'A';
     }
 
     // Other Methods
+
+    public int ValueReturn(char letter)
+    {
+      return 1;
+    }
 
 
   }
