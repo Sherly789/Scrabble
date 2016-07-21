@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+
 
 namespace Scrabble
 {
@@ -37,6 +39,23 @@ namespace Scrabble
       return 1;
     }
 
+    // method that accepts two parameters. First, a group of characters with a shared number value. Second, a single letter. It takes the letter and checks to see whether that group (array) contains that single letter. If it does, then it returns that shared value. For example, if the single letter = A, if A exists in the array group, then it returns the sahred numberic value.
+
+    public int CompareLetters(char[] letterarray, char myLetter)
+    {
+      foreach(var letter in letterarray)
+      {
+        if (letter == myLetter)
+        {
+          return 1;
+        }
+        else
+        {
+          return 0;
+        }
+      }
+      return 0;
+    }
 
   }
 }
